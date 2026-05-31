@@ -21,6 +21,10 @@ class Game:
     def __init__(self):
         pygame.init()
 
+        #set icon
+        icon = pygame.image.load("icon.png")
+        pygame.display.set_icon(icon)
+
         self.width = 800
         self.height = 640
 
