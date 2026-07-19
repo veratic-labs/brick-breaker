@@ -2,7 +2,7 @@
 Brick Breaker
 A classic Brick Breaker game built with Pygame.
 
-Copyright (c) 2026 Ignaxus
+Copyright (c) 2026 Veratic Labs
 Licensed under the Apache License, Version 2.0
 """
 
@@ -52,7 +52,7 @@ class Game:
         self.game_over = False
         self.victory = False
 
-    #enable exe packages to find icon path
+    #get the absolute path of a resource.
     def resource_path(self, relative_path):
         try:
             base_path = sys._MEIPASS

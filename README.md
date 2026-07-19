@@ -59,6 +59,6 @@ python game.py
 
 ## License
 
-Copyright (c) 2026 Ignaxus
+Copyright (c) 2026 Veratic Labs
 
 Licensed under the Apache License 2.0.
